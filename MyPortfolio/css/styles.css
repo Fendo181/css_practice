@@ -55,4 +55,9 @@ section {
 /* h1の太字(bold)を無効にする */
 section h1 {
     font-weight: normal;
+    margin-bottom: 0px;
+}
+
+section p {
+    margin-top: 0px;
 }

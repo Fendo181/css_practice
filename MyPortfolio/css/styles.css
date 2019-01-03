@@ -9,3 +9,21 @@ header {
     /* 背景色 */
     background-color:pink;
 }
+
+ul {
+    margin: 0;
+    /* リスとの黒丸を削除する */
+    list-style-type: none;
+    /* padding(余白)をゼロにする */
+    padding-left: 0;
+}
+
+li {
+    /* 左に詰めていく配位にする */
+    display: inline-block;
+    /* 間を少しあける */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

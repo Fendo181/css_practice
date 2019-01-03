@@ -51,3 +51,8 @@ header li > a:hover {
 section {
     text-align: center;
 }
+
+/* h1の太字(bold)を無効にする */
+section h1 {
+    font-weight: normal;
+}

@@ -24,3 +24,15 @@ li {
     padding: 4px 8px;
     font-size: 12px;
 }
+
+a {
+    /* リンクの下線を削除する */
+    text-decoration: none;
+    /* 親要素の設定を引き継ぐ */
+    color: inherit;
+}
+
+/* 擬似クラス */
+a:hover {
+    color: royalblue;
+}

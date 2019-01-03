@@ -7,8 +7,8 @@ A.`HTML` や `XML` (方言である `SVG`, `MathML, XHTML` などを含む) で�
 
 ### 用語説明
 
-- セレクタ:CSSで記述したスタイルを反映させる対象
-- プロパティ:どのようなスタイルを当てるかの属性
+- セレクタ:CSSで記述したスタイルを反映させる対象を指す
+- プロパティ:どのようなスタイルを当てるかの設定値を指す
 
 ### 記述方法
 
@@ -63,9 +63,9 @@ CSSは1つ1つの領域に対して、`コンテンツ境界`、`パディング
 
 ref:[CSS 基本ボックスモデルの紹介 | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 
-### セレクタの適用範囲を限定させよう
+### セレクタの適用範囲を限定する
 
-半角空白で区切ると、 header 内のすべての要素、という意味になる
+半角空白で区切ると、`header`内のすべての要素、という意味になる
 
 ```css
 header ul {
@@ -92,7 +92,7 @@ header ul > a {
 - `空のブロック`
   - ブロックが、その `margin-top` と `margin-bottom` を分けられるような、ボーダー、パディング、インラインコンテンツ、高さ (height)、高さの最小値 (min-height) のどれをも持たない場合、top と bottom のマージンは相殺されます。
 
-この概念難しすぎる...が、つまりはmargingが相殺されて余計な余白が出来てしまっている事
+この概念めちゃ難しすぎる...が、つまりはmargingが相殺されて余計な余白が出来てしまっている事なんだとうなぁと解釈した。
 
 ref:[マージンの相殺 | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 

@@ -21,11 +21,6 @@ ul {
 li {
     /* 左に詰めていく配位にする */
     display: inline-block;
-    /* 間を少しあける */
-    /* padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 8px;
-    padding-right: 8px; */
-    /* 上下が4、左右が8で分ける */
     padding: 4px 8px;
+    font-size: 12px;
 }

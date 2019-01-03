@@ -16,7 +16,7 @@ header {
     /* 縦横比を保持したまま、なるべく大きく画像を表示する。 */
     background-size: cover;
     /* 画像の中央を起点にサイズを変えて欲しい */
-    background-position: 50％ 50％;
+    background-position: 50% 50%;
 }
 
 /* header内のみ限定させる */

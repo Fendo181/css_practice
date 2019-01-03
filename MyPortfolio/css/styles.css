@@ -8,6 +8,9 @@ body {
 header {
     /* 背景色 */
     background-color:pink;
+    /* 親要素で右揃えにする */
+    text-align: right;
+    padding: 10px;
 }
 
 ul {

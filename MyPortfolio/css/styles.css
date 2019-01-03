@@ -64,9 +64,5 @@ section p {
 }
 
 .icon {
-    /*角を丸める */
-    /* border-radius: 30px; */
-    /* 一辺が140なので半分で丸める */
-    /* border-radius:70px; */
     border-radius: 50%;
 }

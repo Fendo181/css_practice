@@ -66,4 +66,6 @@ section p {
 .icon {
     border-radius: 50%;
     border: 5px solid pink;
+    /* box-shadow: x y blur color */
+    box-shadow: 10px 10px 5px black;
 }

@@ -1,5 +1,5 @@
 body {
-    color:#333;
+    color: #333;
     /*フォントｆ */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
 
 header {
     /* 背景色 */
-    background-color:pink;
+    background-color: pink;
     /* 親要素で右揃えにする */
     text-align: right;
     padding: 10px;
@@ -36,7 +36,7 @@ header li {
 }
 
 /* header 内にあるすべての li 要素の直下にある a 要素、 */
-header li > a {
+header li>a {
     /* リンクの下線を削除する */
     text-decoration: none;
     /* 親要素の設定を引き継ぐ */
@@ -44,7 +44,7 @@ header li > a {
 }
 
 /* 擬似クラス */
-header li > a:hover {
+header li>a:hover {
     color: royalblue;
 }
 
@@ -71,14 +71,14 @@ section p {
     box-shadow: 0px 0px 5px gray;
 }
 
-.works{
+.works {
     width: 400px;
     /* 上下に60pxの余白と中央揃えにする */
     margin: 60px auto;
     border-bottom: 1px solid gray;
 }
 
-.works > section {
+.works>section {
     margin-bottom: 40px;
 }
 
@@ -86,4 +86,3 @@ section p {
 .works p {
     text-align: left;
 }
-

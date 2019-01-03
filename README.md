@@ -1,10 +1,11 @@
 ## CSS Repos
 
-cssに関する基礎文法を学んだりするリポジトリーです。
+cssに関する基礎文法を学んだりするリポジトリです。
 
 ### 学んだ内容
 
-- [CSSの基礎文法について](https://github.com/Fendo181/css_repos/blob/master/basic_css.md)
+- 2019/1/03
+  - [CSSの基礎文法について](https://github.com/Fendo181/css_repos/blob/master/basic_study_css.md)
 
 ### 参考資料
 

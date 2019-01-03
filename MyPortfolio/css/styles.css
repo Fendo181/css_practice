@@ -65,7 +65,5 @@ section p {
 
 .icon {
     border-radius: 50%;
-    border-color: pink;
-    border-width: 5px;
-    border-style: solid;
+    border: 5px solid pink;
 }

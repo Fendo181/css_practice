@@ -47,3 +47,7 @@ header li > a {
 header li > a:hover {
     color: royalblue;
 }
+
+section {
+    text-align: center;
+}

@@ -4,7 +4,7 @@ cssに関する基礎文法を学んだりするリポジトリーです。
 
 ### 学んだ内容
 
-- [CSSの基礎文法について]()
+- [CSSの基礎文法について](https://github.com/Fendo181/css_repos/blob/master/basic_css.md)
 
 ### 参考資料
 

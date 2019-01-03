@@ -29,7 +29,8 @@ header li {
     font-size: 12px;
 }
 
-header a {
+/* header 内にあるすべての li 要素の直下にある a 要素、 */
+header li > a {
     /* リンクの下線を削除する */
     text-decoration: none;
     /* 親要素の設定を引き継ぐ */
@@ -37,6 +38,6 @@ header a {
 }
 
 /* 擬似クラス */
-header a:hover {
+header li > a:hover {
     color: royalblue;
 }

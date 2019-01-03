@@ -62,7 +62,24 @@ CSSは1つ1つの領域に対して、`コンテンツ境界`、`パディング
 
 
 ref:[CSS 基本ボックスモデルの紹介 | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-### 参考資料
 
+### セレクタの適用範囲を限定させよう
+
+半角空白で区切ると、 header 内のすべての要素、という意味になる
+
+```css
+header ul {
+}
+```
+
+不等号記号で区切ると、 この要素の直下にある a 要素、という意味になる
+
+```css
+header ul > a {
+}
+```
+
+
+### 参考資料
 
 - [CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS)

@@ -11,6 +11,10 @@ header {
     /* 親要素で右揃えにする */
     text-align: right;
     padding: 10px;
+    background-image: url(../img/header.png);
+    height: 240px;
+    /* 縦横比を保持したまま、なるべく大きく画像を表示する。 */
+    background-size: cover;
 }
 
 /* header内のみ限定させる */

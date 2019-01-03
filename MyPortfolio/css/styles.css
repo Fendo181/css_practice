@@ -73,9 +73,13 @@ section p {
 
 .works{
     width: 400px;
-    /* あまった余白を割り当てる */
-    margin-left: auto;
-    margin-right: auto;
+    /* 上下に60pxの余白と中央揃えにする */
+    margin: 60px auto;
+    border-bottom: 1px solid gray;
+}
+
+.works > section {
+    margin-bottom: 40px;
 }
 
 .works h1,

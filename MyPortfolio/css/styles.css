@@ -73,6 +73,9 @@ section p {
 
 .works{
     width: 400px;
+    /* あまった余白を割り当てる */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .works h1,

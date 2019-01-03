@@ -1,16 +1,16 @@
-### CSS基礎文法
+## CSS基礎文法
 
 Q.`CSS` is 何?
 
 A.`HTML` や `XML` (方言である `SVG`, `MathML, XHTML` などを含む) で記述された文書の、体裁や見栄えを表現するために用いられます。 `CSS` は、要素が画面上で (あるいは紙や音声といった別のメディア上で) どのように表現されるのかを定義します。
 
 
-#### 用語説明
+### 用語説明
 
 - セレクタ:CSSで記述したスタイルを反映させる対象
 - プロパティ:どのようなスタイルを当てるかの属性
 
-#### 記述方法
+### 記述方法
 
 ex1)`html`の`head`内で記述する方法
 
@@ -35,7 +35,7 @@ ex2)別ファイルで管理する方法
 </head>
 ```
 
-#### 色の定義
+### 色の定義
 
 
 ```css
@@ -95,6 +95,15 @@ header ul > a {
 この概念難しすぎる...が、つまりはmargingが相殺されて余計な余白が出来てしまっている事
 
 ref:[マージンの相殺 | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
+
+### divを中央揃えにする方法
+
+- 左右のmarginを均等に割り振って中央揃えにするという手法をよく使います。
+
+```css
+margin-left: auto;
+margin-right: auto;
+```
 
 ### 参考資料
 

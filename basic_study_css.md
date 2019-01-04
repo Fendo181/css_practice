@@ -92,7 +92,7 @@ header ul > a {
 - `空のブロック`
   - ブロックが、その `margin-top` と `margin-bottom` を分けられるような、ボーダー、パディング、インラインコンテンツ、高さ (height)、高さの最小値 (min-height) のどれをも持たない場合、top と bottom のマージンは相殺されます。
 
-この概念めちゃ難しすぎる...が、つまりはmargingが相殺されて余計な余白が出来てしまっている事なんだとうなぁと解釈した。
+この概念めちゃ難しすぎる...が、つまりはmargingが相殺されて余計な余白が出来てしまっている事なんだとうだと解釈した。
 
 ref:[マージンの相殺 | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 

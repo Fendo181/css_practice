@@ -2,7 +2,7 @@
 
 .container {
   border: 8px solid blue;
-  display: flex;
+  display: inline-flex;
 }
 .item-1 {
   width: 80px;

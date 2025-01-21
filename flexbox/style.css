@@ -9,14 +9,13 @@
   width: 80px;
   height: 80px;
   background-color: pink;
-  align-self: center;
 }
 
 .item-2 {
   width: 80px;
   height: 80px;
   background-color: skyblue;
-  margin-left: auto;
+  order: 1;
 }
 
 .item-3 {

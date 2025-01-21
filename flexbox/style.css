@@ -3,7 +3,10 @@
 .container {
   border: 8px solid blue;
   display: flex;
-  flex-direction: column-reverse;
+  /* flexコンテナに対して適用する */
+  flex-direction: row-reverse;
+  /* 主軸の方向を考える */
+  justify-content: space-between;
 }
 .item-1 {
   width: 80px;

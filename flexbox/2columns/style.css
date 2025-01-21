@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+header {
+  background: pink;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  background: skyblue;
+  flex: 1;
+}
+
+nav {
+  background: tomato;
+  width: 240px;
+}
+
+aside {
+  background: orange;
+  width: 160px;
+}
+
+footer {
+  background: silver;
+}

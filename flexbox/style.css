@@ -1,10 +1,25 @@
 @charset "utf-8";
 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  /* border: 8px solid blue;
+  box-sizing: border-box; */
+  display: flex;
+  flex-direction: column;
+}
 header {
   background: pink;
 }
 .container {
+  /* フレックスコンテナのスタイル */
   display: flex;
+  /* フレックスアイテムのスタイル */
+  flex: 1;
 }
 main {
   background: skyblue;

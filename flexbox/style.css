@@ -1,27 +1,22 @@
 @charset "utf-8";
 
+header {
+  background: pink;
+}
 .container {
-  border: 8px solid blue;
   display: flex;
 }
-.item-1 {
-  width: 80px;
-  height: 80px;
-  background-color: pink;
+main {
+  background: skyblue;
   flex: 1;
 }
 
-.item-2 {
-  width: 80px;
-  height: 80px;
-  background-color: skyblue;
-  flex: 2;
+aside {
+  background: orange;
+  width: 160px;
 }
 
-.item-3 {
-  width: 80px;
-  height: 80px;
-  background-color: orange;
-  flex: 1;
+footer {
+  background: silver;
 }
 

@@ -7,8 +7,6 @@
 
 - `flex-direction: row | row-reverse | column | column-reverse;`
   - フレックスアイテムの配置方向を指定するプロパティ
-- `flex-wrap: nowrap | wrap | wrap-reverse;`
-  - フレックスアイテムが折り返すかどうかを指定するプロパティ
 - `justify-content`
   - フレックスアイテムの水平方向の配置を指定するプロパティ
 - `flex-wrap`
@@ -26,6 +24,7 @@
 - `flex`
   - flex プロパティですが、フレックスアイテムの幅の合計がコンテナの幅に満たなかったり、逆にコンテナの幅を超えた場合にどうするかを指定するためのプロパティです。
   - flex で 1 以上の整数値を指定された要素は、そのままの比率で縮んだり広がったりする。
+  - Flexboxはデフォルトでは広がらないけど縮む、という特性があり、広がってほしい場合は、flexを auto か 1 以上の整数値にすれば良い。
 - `flex-grow: <number>;`
   - フレックスアイテムの伸びる比率を指定するプロパティ
 - `flex-shrink: <number>;`

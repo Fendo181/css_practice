@@ -5,7 +5,9 @@
   display: flex;
   width: 280px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* あくまでも要素間の隙間を作る */
+  /* calc で計算をする場合、こうした演算子の前後には必ず半角空白が必要なので注意しておきましょう。 */
+  gap: calc((280px - 80px * 3) / 2);
 }
 .item-1 {
   width: 80px;

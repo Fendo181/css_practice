@@ -3,24 +3,25 @@
 .container {
   border: 8px solid blue;
   display: flex;
-  height: 240px;
 }
 .item-1 {
   width: 80px;
   height: 80px;
   background-color: pink;
+  flex: 1;
 }
 
 .item-2 {
   width: 80px;
   height: 80px;
   background-color: skyblue;
-  order: 1;
+  flex: 2;
 }
 
 .item-3 {
   width: 80px;
   height: 80px;
   background-color: orange;
+  flex: 1;
 }
 

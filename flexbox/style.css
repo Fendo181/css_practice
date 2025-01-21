@@ -2,7 +2,8 @@
 
 .container {
   border: 8px solid blue;
-  display: inline-flex;
+  display: flex;
+  flex-direction: column-reverse;
 }
 .item-1 {
   width: 80px;

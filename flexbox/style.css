@@ -11,6 +11,12 @@ main {
   flex: 1;
 }
 
+nav {
+  background: tomato;
+  width: 160px;
+  /* 順番を変える */
+  order: -1;
+}
 aside {
   background: orange;
   width: 160px;

@@ -8,3 +8,21 @@ nav {
   margin-left: auto;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+a {
+  background: pink;
+  display: block;
+  width: 100px;
+  line-height: 64px;
+  text-align: center;
+}
+
+a::hover {
+  background: lightpink;
+}
